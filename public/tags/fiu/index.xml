@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FIU on Terminal</title>
-    <link>//localhost:1313/tags/fiu/</link>
+    <link>/tags/fiu/</link>
     <description>Recent content in FIU on Terminal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Feb 2026 23:20:07 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/fiu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/fiu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trip Down Memory Lane</title>
-      <link>//localhost:1313/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Thu, 05 Feb 2026 23:20:07 -0500</pubDate>
-      <guid>//localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;Friends from FIU&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;ul class=&#34;image-gallery&#34;&gt;&#xA;&#xA;  &lt;div class=&#34;gallery&#34;&gt;&#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;//localhost:1313/posts/first-post/imgs/0antbii_0antbii-R1-007-2_hu_8fbb887a3517f89a.webp&#34;&#xA;              alt=&#34;imgs/0antbii_0antbii-R1-007-2&#34;&#xA;              title=&#34;imgs/0antbii_0antbii-R1-007-2&#34;&gt;&#xA;        &#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;//localhost:1313/posts/first-post/imgs/0antbii_0antbii-R1-011-4_hu_a690816c405c7fb1.webp&#34;&#xA;              alt=&#34;imgs/0antbii_0antbii-R1-011-4&#34;&#xA;              title=&#34;imgs/0antbii_0antbii-R1-011-4&#34;&gt;&#xA;        &#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;//localhost:1313/posts/first-post/imgs/DSC00755_hu_1dd32ebc18021ed6.webp&#34;&#xA;              alt=&#34;imgs/DSC00755&#34;&#xA;              title=&#34;imgs/DSC00755&#34;&gt;&#xA;        &#xA;    &#xA;  &lt;/div&gt;&#xA;&#xA;&lt;/ul&gt;</description>
+      <guid>/posts/first-post/</guid>
+      <description>&lt;p&gt;Friends from FIU&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;ul class=&#34;image-gallery&#34;&gt;&#xA;&#xA;  &lt;div class=&#34;gallery&#34;&gt;&#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;/posts/first-post/imgs/0antbii_0antbii-R1-007-2_hu_8fbb887a3517f89a.webp&#34;&#xA;              alt=&#34;imgs/0antbii_0antbii-R1-007-2&#34;&#xA;              title=&#34;imgs/0antbii_0antbii-R1-007-2&#34;&gt;&#xA;        &#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;/posts/first-post/imgs/0antbii_0antbii-R1-011-4_hu_a690816c405c7fb1.webp&#34;&#xA;              alt=&#34;imgs/0antbii_0antbii-R1-011-4&#34;&#xA;              title=&#34;imgs/0antbii_0antbii-R1-011-4&#34;&gt;&#xA;        &#xA;    &#xA;      &#xA;        &#xA;          &lt;img src=&#34;/posts/first-post/imgs/DSC00755_hu_1dd32ebc18021ed6.webp&#34;&#xA;              alt=&#34;imgs/DSC00755&#34;&#xA;              title=&#34;imgs/DSC00755&#34;&gt;&#xA;        &#xA;    &#xA;  &lt;/div&gt;&#xA;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

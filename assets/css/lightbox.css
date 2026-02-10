@@ -5,6 +5,7 @@
 
 body.blurred > *:not(#darkbox) {
   filter: blur(10px);
+  background-position: inherit;
 }
 
 #darkbox {

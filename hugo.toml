@@ -73,7 +73,7 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Yan's Gallery"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yan&#39;s Gallery</title>
-    <link>/tags/</link>
+    <link>https://yannnbi.github.io/tags/</link>
     <description>Recent content in Tags on Yan&#39;s Gallery</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Feb 2026 23:20:07 -0500</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yannnbi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FIU</title>
-      <link>/tags/fiu/</link>
+      <link>https://yannnbi.github.io/tags/fiu/</link>
       <pubDate>Thu, 05 Feb 2026 23:20:07 -0500</pubDate>
-      <guid>/tags/fiu/</guid>
+      <guid>https://yannnbi.github.io/tags/fiu/</guid>
       <description></description>
     </item>
     <item>
       <title>Portrait</title>
-      <link>/tags/portrait/</link>
+      <link>https://yannnbi.github.io/tags/portrait/</link>
       <pubDate>Thu, 05 Feb 2026 23:20:07 -0500</pubDate>
-      <guid>/tags/portrait/</guid>
+      <guid>https://yannnbi.github.io/tags/portrait/</guid>
       <description></description>
     </item>
   </channel>

@@ -4,12 +4,7 @@
 .gallery {
   gap: 5px;
   line-height: 0 !important;
-  filter: grayscale(100%);
-  transition: filter 1.5s ease-out;
 }
-.gallery img:hover {
-    filter:none;
-} 
 img {
   line-height: 0 !important;
   display: inline;

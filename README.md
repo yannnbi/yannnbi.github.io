@@ -1,0 +1,1 @@
+Personal website made with [Terminal](https://github.com/panr/hugo-theme-terminal).

@@ -1,0 +1,66 @@
+{{- $cover := false -}}
+{{- $autoCover := default $.Site.Params.autoCover false }}
+
+{{- if index .Params "cover" -}}
+  {{- if .Resources.GetMatch .Params.Cover }}
+    {{- $cover = (.Resources.GetMatch .Params.Cover).RelPermalink -}}
+  {{- else -}}
+    {{- $cover = absURL .Params.Cover -}}
+  {{- end -}}
+{{- else if $.Site.Params.AutoCover -}}
+  {{- if (not .Params.Cover) -}}
+    {{- if .Resources.GetMatch "cover.*" -}}
+      {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/*  {{if $cover -}}
+  <!-- Cover image found -->
+  <img src="{{ $cover }}"
+    class="post-cover"
+    alt="{{ .Title | plainify | default " " }}"
+    title="{{ .Params.CoverCredit |plainify|default "Cover Image" }}" />
+
+{{ end -}}  */}}
+
+
+  {{if $cover -}}
+  <style>
+    .wcover::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+
+      background-image: url("{{ $cover }}");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      filter: blur(5px);
+
+      z-index: -1;
+      transform: scale(1.05); /* prevents blur edges */
+    }
+
+    /* Glass panel */
+    .glass-container {
+      width: 75%;
+      margin: 5rem auto;
+      padding: 2.5rem 3rem;
+
+      background: rgba(255, 255, 255, 0.35);
+
+      border-radius: 0px;
+
+      border: 1px solid rgba(255, 255, 255, 0.25);
+
+      box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.25);
+
+      position: relative;
+      z-index: 1;
+    }
+
+  </style>
+{{ end -}}

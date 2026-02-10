@@ -1,0 +1,22 @@
+{{ $dir := .Get "gallery_dir" }}
+
+{{ $images := .Page.Resources.Match (printf "%s/*" $dir) }}
+
+<ul class="image-gallery">
+{{ if not $images }}
+  <p>No images found in {{ $dir }}</p>
+{{ else }}
+  <div class="gallery">
+    {{ range $images }}
+      {{ $imagetitle := index (split .Name ".") 0 }}
+        <!--<a href="{{ (.Fit "1600x1600 q50 webp").Permalink }}"
+          title="{{ $imagetitle }}"
+          class="lightbox-image"> -->
+          <img src="{{ (.Fit "745x745 q75 webp").Permalink }}"
+              alt="{{ $imagetitle }}"
+              title="{{ $imagetitle }}">
+        <!--</a> -->
+    {{ end }}
+  </div>
+{{ end }}
+</ul>

@@ -115,7 +115,9 @@ pagination.pagerSize = 5
           identifier = "things"
           name = "things"
           url = "/categories/things"
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 
 

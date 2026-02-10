@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://yannnbi.github.io"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -76,7 +76,7 @@ pagination.pagerSize = 5
     title = "Yan's Gallery"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "Yan's work and passion"
       owner = ""
       keywords = ""
       copyright = ""
@@ -91,7 +91,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Yan's Gallery"
+        logoText = "Y_____B"
         logoHomeLink = "/"
 
       [languages.en.menu]
@@ -100,9 +100,9 @@ pagination.pagerSize = 5
           name = "blt"
           url = "/blt"
         [[languages.en.menu.main]]
-          identifier = "about"
-          name = "about"
-          url = "/about"
+          identifier = "contact"
+          name = "contact"
+          url = "/contact"
         [[languages.en.menu.main]]
           identifier = "sports"
           name = "sports"

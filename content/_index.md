@@ -1,9 +1,9 @@
 +++
 framed = true
-cover = 'cover.jpg'
+cover = '/contact/cover.jpg'
 +++
 
-Hi, I'm Yan, a photographer based in Boston.
+Yan is a Brazilian creative who likes to tinker with everything multimedia to say important things.
 
 Feel free to look around.
 

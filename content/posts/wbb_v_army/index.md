@@ -2,7 +2,7 @@
 title = "Sports Photography and Hitting a Wall"
 date = "2026-02-13T13:04:04-05:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = "y___b"
+author = "y_b"
 authorTwitter = "" #do not include @
 cover = "cover.jpg"
 tags = ["2026", "sports-photography", "BU"]

@@ -44,16 +44,21 @@
     "2026/1/3": 1012,
     "2026/1/5": 9,
     "2026/1/6": 26,
-    "2026/1/13": 186
+    "2026/1/13": 186,
+    "2026/2/6": 643
   },
   "todaysWordCount": {
+    "posts/wbb-v-lehigh/index.md": {
+      "initial": 39,
+      "current": 682
+    },
     "posts/wbb_v_army/index.md": {
-      "initial": 456,
+      "initial": 641,
       "current": 641
     },
     "posts/first-post/index.md": {
-      "initial": 56,
-      "current": 57
+      "initial": 58,
+      "current": 58
     }
   }
 }

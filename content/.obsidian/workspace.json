@@ -13,7 +13,9 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "posts/wbb-v-lehigh/tipoff.jpg"
+                "file": "posts/wbb-v-lehigh/index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-image",
               "title": "tipoff"
@@ -193,7 +195,6 @@
   },
   "active": "f62bf7e2a14eb51d",
   "lastOpenFiles": [
-    "posts/wbb-v-lehigh/index.md",
     "posts/wbb-v-lehigh/cover.jpg",
     "posts/wbb-v-lehigh/Digital_Bi_20260220_wbb_v_lehigh-24.jpg",
     "posts/wbb-v-lehigh/imgs/Digital_Bi_20260220_wbb_v_lehigh-41.jpg",
@@ -204,7 +205,9 @@
     "posts/wbb-v-lehigh/imgs/Digital_Bi_20260220_wbb_v_lehigh-8.jpg",
     "posts/wbb-v-lehigh/imgs/Digital_Bi_20260220_wbb_v_lehigh-35.jpg",
     "posts/wbb-v-lehigh/imgs/Digital_Bi_20260220_wbb_v_lehigh-21.jpg",
+    "posts/wbb-v-lehigh/imgs/Digital_Bi_20260220_wbb_v_lehigh-16.jpg",
     "posts/wbb_v_army/index.md",
+    "posts/wbb-v-lehigh/index.md",
     "posts/wbb-v-lehigh/imgs",
     "posts/first-post/index.md",
     "posts/wbb-v-lehigh"
